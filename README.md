@@ -1,7 +1,15 @@
 # connectstring2mysqlclient
-give mysql client command line from connect string
+## description
+It gives **mysql client command line** from **connect string**
+
+Just an handy script
 
 example of use
+
+
+input `mysql://user:passwdxxxx@dbserver:3306/datbasename`
+
+output `mysql -u user -ppasswdxxxx -h dbserver -P 3306 datbasename`
 
 	$ python connectstring2mysqlclient.py 
 	mysql://user:passwdxxxx@dbserver:3306/datbasename
