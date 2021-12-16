@@ -22,4 +22,7 @@ output `mysql -u user -ppasswdxxxx -h dbserver -P 3306 datbasename`
 	mysql -u user -ppasswdxxxx -h dbserver -P 3306 datbasename
 
 
+# improve
+PR welcome
 
+/!\ not any error check, I don't need it for now
